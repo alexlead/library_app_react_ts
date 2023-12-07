@@ -58,6 +58,7 @@ const LibraryEditForm = ( {handleEditForm, book}:IForm ):JSX.Element => {
     }
 
   return (
+    <div className="editForm">
     <form onSubmit={ (event)=> handleSubmit(event) }>
         <table>
             <tr>
@@ -78,6 +79,7 @@ const LibraryEditForm = ( {handleEditForm, book}:IForm ):JSX.Element => {
             </tr>
         </table>
     </form>
+    </div>
   )
 }
 
