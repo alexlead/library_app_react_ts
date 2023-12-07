@@ -1,6 +1,6 @@
 {
-  "name": "23_react_intro_05_12_2023",
-  "version": "0.1.0",
+  "name": "library_app_react_ts",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,6 +16,7 @@
     "react-scripts": "5.0.1",
     "redux": "^5.0.0",
     "typescript": "^4.9.5",
+    "uid": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
